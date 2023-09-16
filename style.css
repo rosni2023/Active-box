@@ -35,15 +35,18 @@ a{
 
 .header-part{
     height: 100px;
+    position: fixed;
+    width: 100%;
 
 }
 
 .header-part .container{
 height: 100%;
-background-color: black;
+
 display: flex;
 justify-content: space-between;
 align-items: center;
+border-bottom: 1px solid rgba(255, 255, 255, 0.3 );
 }
 .header-menu .menu-bar{
     display: flex;
@@ -58,4 +61,57 @@ align-items: center;
 }
 .header-menu .menu-bar li:last-child a{
     padding-right: 0;
+}
+
+
+
+
+/*--------- banner part ------ */
+
+.banner-part{
+    background-image: url(./ActiveBox2.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 254px;
+    padding-bottom: 160px;
+}
+.banner-part .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-part .container h1{
+font-size: 65px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+line-height: 68px;
+text-transform: uppercase;
+color: #fff;
+text-align: center;
+padding: 0 60px;
+
+}
+
+.banner-part .container p{
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 42px ;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 0 150px;
+
+}
+
+.banner-part .container a{
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 46px;
+    background-color: #E84545;
+    border-radius: 2px;
+
 }
