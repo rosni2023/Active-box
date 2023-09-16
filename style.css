@@ -1,0 +1,61 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:ital,wght@0,500;1,500&display=swap');
+</style>
+
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-part{
+    height: 100px;
+
+}
+
+.header-part .container{
+height: 100%;
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-menu .menu-bar{
+    display: flex;
+}
+.header-menu .menu-bar li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 13px;
+    padding: 14px 30px;
+    text-transform: uppercase;
+}
+.header-menu .menu-bar li:last-child a{
+    padding-right: 0;
+}
